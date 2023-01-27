@@ -1,0 +1,50 @@
+Hi!
+
+We are looking to build a crypto exchange site using the 
+Sendwyre White label API: https://docs.sendwyre.com/reference/white-label-card-processing
+
+It would be a relatively simple single-page app. 
+The user will fill in relevant info: Currency, amount, crypto adress etc. 
+The app will then use the Sendwyre API to handle payments and transactions.
+
+Initially we have no need for User/Login functionality, but we might want to expand the app with more features down the line. 
+As far as the deadline we want it done as soon as possible, however, we would rather have a stable app with a bit longer dev time than a rushed buggy one.
+
+Please take a look at the Sendwyre Docs and let us know a timeframe
+
+
+Buy crypto easily
+Köp krypto enkelt!
+
+How much do you want to buy?
+Hur mycket vill du köpa?
+
+what is your crypto wallet address?
+vad är din krypto plånboksadress?
+
+sendwyre test key
+TEST-AK-CX2DQ2HN-ZMUGHH7U-UMZ9A7HH-BL8VMYJQ
+
+client secret
+TEST-SK-6C9AXWAX-YZ976B2W-TGD9B6R2-JD6ACY3P
+
+AC_PD7YFA9LEPA
+
+{
+  "id": "WO_6Z9GJFRMVB",
+  "createdAt": 1662640438018,
+  "owner": "account:AC_GEL7BEJYHRP",
+  "status": "RUNNING_CHECKS",
+  "orderType": "INTERNATIONAL",
+  "sourceAmount": 10393.35,
+  "purchaseAmount": 10000,
+  "sourceCurrency": "SEK",
+  "destCurrency": "BTC",
+  "transferId": null,
+  "dest": "bitcoin:tb1q6yn0ajs733xsk25vefrhwjey4629qt9c67y6ma",
+  "authCodesRequested": false,
+  "blockchainNetworkTx": null,
+  "authenticationUrl": null,
+  "accountId": "AC_GEL7BEJYHRP",
+  "paymentMethodName": null
+}
